@@ -1,40 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>For The Smol White Seal</title>
 
 <style>
 body{
   background: #fff476;
-  font-family: Arial;
-  text-align:center;
-  color:black;
-  padding-top:100px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: black;
+  padding-top: 100px;
 }
 
 h1{
-  font-size:40px;
+  font-size: 40px;
+}
+
+p{
+  font-size: 20px;
 }
 
 button{
-  padding:15px 30px;
-  font-size:20px;
-  border:none;
-  border-radius:25px;
-  background:white;
-  color:#ff5e78;
-  cursor:pointer;
+  padding: 15px 30px;
+  font-size: 20px;
+  border: none;
+  border-radius: 25px;
+  background: white;
+  color: #ff5e78;
+  cursor: pointer;
+}
+
+button:hover{
+  transform: scale(1.05);
 }
 
 .heart{
-  font-size:40px;
+  font-size: 40px;
   animation: float 2s infinite;
 }
 
 @keyframes float{
-  0%{transform:translateY(0);}
-  50%{transform:translateY(-10px);}
-  100%{transform:translateY(0);}
+  0%{transform: translateY(0);}
+  50%{transform: translateY(-10px);}
+  100%{transform: translateY(0);}
 }
 </style>
 </head>
@@ -42,7 +53,8 @@ button{
 <body>
 
 <h1>HAVE FUN IN THE GYM MOOO!</h1>
-<p>You're the strongest and prettiest tiger there okiee they should be scared of you remember that! :D</p>
+
+<p>You're the strongest and prettiest tiger there okiee. They should be scared of you! Remember that! :D</p>
 
 <button onclick="showMessage()">Click Me</button>
 
@@ -51,7 +63,7 @@ button{
 <script>
 function showMessage(){
 document.getElementById("message").innerHTML =
-"ALSO PLS ALWAYS STAY SAFE AND DRINK LOADS OF WATER RAHHHH";
+"ALSO PLEASE STAY SAFE AND DRINK LOADS OF WATER RAHHHH!";
 }
 </script>
 
